@@ -20,11 +20,11 @@ use CodeIgniter\Model;
 
 class Data_model extends Model
 {
-	protected $table = "data";
+	protected $table = "tracked";
 
 	function search($search = null, $start = 0, $length = 0)
 	{
-		$builder = $this->table("data");
+		$builder = $this->table("trackdt");
 		if($search)
 		{
 			$arr_search = explode(" ", $search);
