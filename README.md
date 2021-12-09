@@ -6,8 +6,10 @@ This is library for Editor datatables to run in CodeIgniter 4 environment
 <h2>Install</h2>
 <ol>
   <li>Install CI4 in correct directory and set database information in .env file</li>
-  <li>Copy Editor datatables to /app/ThirdParty/</li>
+  <li>Copy Datatables and Editor datatables to /app/ThirdParty/</li>
   <li>Create symlink eg: you have Editor datatables v1.9.4<pre>ln -s Editor-PHP-1.9.4 editor</pre></li>
+  <li>Copy folder css and js from Datatables to /public_html/public/libraries/datatables/ (you can change it, 
+    but correct the css and js links in the Views file)</li>
   <li>Copy folder css and js from Editor Datatables to /public_html/public/libraries/editor/ (you can change it, 
     but correct the css and js links in the Views file)</li>
   <li>Go to CI4 root directory (usualy public_html)</li>
@@ -15,5 +17,5 @@ This is library for Editor datatables to run in CodeIgniter 4 environment
     OR you can download manual and extract to CI4 folder structure respectively</li>
   <li>Create example database <pre>php spark migrate</pre></li>
   <li>Input example data <pre>php spark db:seed TrackdtSeeder</pre></li>
-  <li>Go to browser, open URL http://yourdomain.com/dataeditor</li>
+  <li>Go to browser, open URL http://yourdomain.com/data and http://yourdomain.com/dataeditor</li>
 </ol>
