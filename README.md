@@ -17,5 +17,6 @@ This is library for Editor datatables to run in CodeIgniter 4 environment
     OR you can download manual and extract to CI4 folder structure respectively</li>
   <li>Create example database <pre>php spark migrate</pre></li>
   <li>Input example data <pre>php spark db:seed TrackdtSeeder</pre></li>
+  <li>Don't forget chown folder writeable to web server user <pre>chown www-data.www-data writable/ -R</pre></li>
   <li>Go to browser, open URL http://yourdomain.com/data and http://yourdomain.com/dataeditor</li>
 </ol>
