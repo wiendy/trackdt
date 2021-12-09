@@ -1,5 +1,5 @@
 <html>
-<!-- 
+<!--
 /**
  * Library for Editor Datatables
  * Created by   : Wiendy Kusuma
@@ -11,7 +11,7 @@
  * Tested       : Editor Datatable 1.9.4, 1.9.6
  *              : Codigniter 4.1.5
  *              : PHP 7.3.33
- * 
+ *
  * If you feel happy with this Library you can donate via paypal wiendy@opsi.biz, thank you
  */
 
@@ -146,10 +146,14 @@
 		</script>
 
 	</body>
-</html>
 
-<!-- 
+<!--
 /**
+ * End of file dataeditor.php
+ * Location: app/Views/dataeditor.php
  * https://github.com/wiendy/trackdt
  */
- -->
+-->
+
+</html>
+
