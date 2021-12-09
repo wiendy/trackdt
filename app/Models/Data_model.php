@@ -20,7 +20,7 @@ use CodeIgniter\Model;
 
 class Data_model extends Model
 {
-	protected $table = "tracked";
+	protected $table = "trackdt";
 
 	function search($search = null, $start = 0, $length = 0)
 	{
